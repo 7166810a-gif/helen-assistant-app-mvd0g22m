@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">הלן - עוזרת חכמה</string>
+    <string name="tab_chat">צ\'אט</string>
+    <string name="tab_me">שלי</string>
+    <string name="tab_knowledge">ידע</string>
+    <string name="tab_settings">הגדרות</string>
+    <string name="hint_type_command">הקלד פקודה להלן...</string>
+    <string name="send">שלח</string>
+</resources>
