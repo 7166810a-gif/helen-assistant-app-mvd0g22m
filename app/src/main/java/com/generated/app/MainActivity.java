@@ -496,7 +496,7 @@ public class MainActivity extends Activity implements TextToSpeech.OnInitListene
 
     private void setSilentMode(boolean silent) {
         AudioManager audioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
-        audioManager.setRiserMode(silent ? AudioManager.RINGER_MODE_SILENT : AudioManager.RINGER_MODE_NORMAL);
+        audioManager.setRingerMode(silent ? AudioManager.RINGER_MODE_SILENT : AudioManager.RINGER_MODE_NORMAL);
     }
 
     private void toggleWifi(boolean enable) {
